@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.admin-nav {
+  width: 220px;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #343a40;
+  transition: 0.3s all ease-in-out;
+}
+.admin-link {
+  background-color: #343a40;
+}
+.admin-link:hover,
+.nav-active {
+  background-color: #212529;
+  text-decoration: none;
+}
+
+.animate {
+  width: 0;
+  transition: 0.3s all ease-in-out;
+}
